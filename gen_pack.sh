@@ -105,7 +105,7 @@ function postprocess() {
 if [[ -d ${GEN_PACK_LIB} ]]; then
   . "${GEN_PACK_LIB}/gen-pack"
 else
-  . <(curl -sL "https://raw.githubusercontent.com/Open-CMSIS-Pack/gen-pack/main/bootstrap")
+  . <(curl -sL "https://raw.githubusercontent.com/Open-CMSIS-Pack/gen-pack/bootstrap/bootstrap")
 fi
 
 gen_pack "${DEFAULT_ARGS[@]}" "$@"

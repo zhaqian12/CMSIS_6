@@ -16,7 +16,7 @@ REQUIRED_GEN_PACK_LIB="0.9.0"
 if [[ -d ${GEN_PACK_LIB} ]]; then
   . "${GEN_PACK_LIB}/gen-pack"
 else
-  . <(curl -sL "https://raw.githubusercontent.com/Open-CMSIS-Pack/gen-pack/main/bootstrap")
+  . <(curl -sL "https://raw.githubusercontent.com/Open-CMSIS-Pack/gen-pack/bootstrap/bootstrap")
 fi
 
 find_linkchecker
