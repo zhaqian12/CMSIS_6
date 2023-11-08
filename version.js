@@ -1,6 +1,20 @@
 //--- list of versions ---
 const versions = {
-    
+    General: {
+        "latest": "6.0.0-dev71"
+    },
+    Core: {
+        "latest": "5.7.0"
+    },
+    Core_A: {
+        "latest": "1.2.1"
+    },
+    Driver: {
+        "latest": "2.9.0"
+    },
+    RTOS2: {
+        "latest": "2.3.0"
+    }
 }
 //--- list of versions ---
 
